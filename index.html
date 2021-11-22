@@ -33,13 +33,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="navbar-item">
-              <a href="#learn" class="nav-link">驗車</a>
+              <a href="#description" class="nav-link">驗車</a>
             </li>
             <li class="navbar-item">
               <a href="#questions" class="nav-link">修車</a>
             </li>
             <li class="navbar-item">
-              <a href="#instructors" class="nav-link">應徵</a>
+              <a href="#employer" class="nav-link">應徵</a>
             </li>
           </ul>
         </div>
@@ -56,10 +56,16 @@
             <p class="lead my-4">
               嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨
             </p>
-            <button class="btn btn-primary btn-lg">還不快預約</button>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              還不快預約
+            </button>
           </div>
           <img
-            src="https://images.squarespace-cdn.com/content/v1/5912373d46c3c48ff6f237f7/1498584923734-YLMRDX1T1L9AKAGXJ6G6/general-car-repair-CA-Motor-Works.jpg?format=1000w"
+            src="IMG_carrepair.JPG"
             alt="car repair img"
             class="img-fluid w-50 d-none d-sm-block"
           />
@@ -93,6 +99,7 @@
       </div>
     </section>
     <!--Boxes-->
+    <div class="container h1 text-center mt-5">檢驗流程以及項目</div>
     <section class="p-5">
       <div class="container">
         <div class="row text-center g-4">
@@ -105,24 +112,22 @@
                     width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-person-check"
+                    class="bi bi-clipboard"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
                     />
                     <path
-                      fill-rule="evenodd"
-                      d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
                     />
                   </svg>
                 </div>
-                <h3 class="card-title mb-3">預約</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                <h3 class="card-title mb-3">第一站</h3>
+                <p class="card-text text">
+                  1. 目視一般檢驗<br />2. 汽油車廢氣及柴油車排煙
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary">瞭解更多</a>
               </div>
             </div>
           </div>
@@ -143,12 +148,11 @@
                     />
                   </svg>
                 </div>
-                <h3 class="card-title mb-3">修車</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                <h3 class="card-title mb-3">第二站</h3>
+                <p class="card-text text">
+                  1. 軸重地磅量測<br />車輛前後軸各駛在地磅上暫停取值
                 </p>
-                <a href="#" class="btn btn-dark">Read More</a>
+                <a href="#" class="btn btn-dark">暸解更多</a>
               </div>
             </div>
           </div>
@@ -158,31 +162,33 @@
                 <div class="h1 mb-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="ˇ30"
+                    width="30"
                     height="30"
                     fill="currentColor"
-                    class="bi bi-telephone-inbound"
+                    class="bi bi-check-circle"
                     viewBox="0 0 16 16"
                   >
                     <path
-                      d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                    />
+                    <path
+                      d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
                     />
                   </svg>
                 </div>
-                <h3 class="card-title mb-3">打電話</h3>
-                <p class="card-text">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iure, quas quidem possimus dolorum esse eligendi?
+                <h3 class="card-title mb-3">第三站</h3>
+                <p class="card-text text">
+                  1. 前輪定位檢測及煞車效能<br />2. 平衡度檢測及底盤檢驗
                 </p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="btn btn-primary">暸解更多</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!--Learn Section-->
-    <section id="learn" class="p-5">
+    <!--description Section-->
+    <section id="description" class="p-5">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
@@ -203,20 +209,24 @@
         </div>
       </div>
     </section>
-    <section id="learn" class="p-5 bg-dark text-light">
+    <section id="description" class="p-5 bg-dark text-light">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>我們的技術</h2>
-            <p class="lead">非常好非常好非常好非常好非常好非常好非常好非常好</p>
-            <p>全台中最好全台中最好全台中最好全台中最好</p>
+            <h2>關於我們</h2>
+            <p class="lead">
+              JA01010 汽車修理業 JA01020 汽車拖吊業 JA01990 其他汽車服務業
+              IZ99990 其他工商服務業 F114030 汽、機車零件配備批發業 ZZ99999
+              除許可業務外，得經營法令非禁止或限制之業務
+            </p>
+            <p>核准設立日期 096年04月17日</p>
             <a href="#" class="btn btn-light mt-3">
               <i class="bi bi-chevron-right"></i>認識我們
             </a>
           </div>
           <div class="col-md">
             <img
-              src="https://lh3.googleusercontent.com/proxy/MA0w0VebV7G3xLaoSJE1K8Qn6bzXDa8luMmxAATC5o1DmollIvhXbx6S2wa5QJI_lK7NfGuC4PRJe8SGYN7Fxi_M"
+              src="https://lh3.googleusercontent.com/proxy/ZQDe3BQNVhQv5sQUD08Ctlzp1Hv-yCWF3HVFrgSOY1S1_Veg88yQwZAHsXDqktt3_FF8LihAVicR5bQai8V-xrER"
               class="img-fluid"
               alt=""
             />
@@ -343,6 +353,192 @@
         </div>
       </div>
     </section>
+    <!--employer-->
+    <section id="employer" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">我們的員工</h2>
+        <p class="lead text-center text-white mb-5">我們的員工都是高手</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6764.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工一號</h3>
+                <p class="card-text">
+                  我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6538.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工二號</h3>
+                <p class="card-text">
+                  我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6761.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工三號</h3>
+                <p class="card-text">
+                  我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6763.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工四號</h3>
+                <p class="card-text">
+                  我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact info-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2>連絡資訊</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">東陽地址: </span
+                >台中市后里區墩南里七星街1號
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">中庸地址: </span
+                >台中市后里區后里里三豐路206號
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">東陽電話: </span>04-25577568
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">中庸電話: </span>04-25584977
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">電子信箱: </span>samuel.yenlin@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3636.4398910074196!2d120.7210315!3d24.2962867!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691a9a76ddc99f%3A0xb2b8b1f099b5065b!2sNo.%201%2C%20Qixing%20St%2C%20Houli%20District%2C%20Taichung%20City%2C%20Taiwan%20421!5e0!3m2!1sen!2sus!4v1637622171972!5m2!1sen!2sus"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relativve">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 東陽汽車修理</p>
+      </div>
+    </footer>
+    <!--model-->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">預約</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">請填寫以下資料(最好不要亂填喔我看得到)</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">名子: </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">貴姓:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">電子郵箱:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">電話號碼:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
