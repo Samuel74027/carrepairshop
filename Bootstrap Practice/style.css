@@ -1,0 +1,25 @@
+#margin {
+  margin-right: 5%;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+#picture {
+  height: 128px;
+  width: 128px;
+  object-fit: cover;
+}
+
+.text {
+  font-size: 150%;
+}

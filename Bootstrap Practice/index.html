@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Website</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">東洋驗車場</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="#description" class="nav-link">驗車</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#questions" class="nav-link">修車</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#employer" class="nav-link">應徵</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--showcase-->
+    <section class="bg-dark text-light p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>
+              讓你的車開出去就跟<span class="text-warning"><br />新的</span>一樣
+            </h1>
+            <p class="lead my-4">
+              嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝衝嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨嗨
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              還不快預約
+            </button>
+          </div>
+          <img
+            src="IMG_carrepair.JPG"
+            alt="car repair img"
+            class="img-fluid w-50 d-none d-sm-block"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Newsletter-->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">任何問題?儘管問</h3>
+          <div class="input-group news-input">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="打在這裡不要亂打"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-dark btn-lg"
+                type="button"
+                id="button-addon2"
+              >
+                送出
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Boxes-->
+    <div class="container h1 text-center mt-5">檢驗流程以及項目</div>
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                    />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="card-title mb-3">第一站</h3>
+                <p class="card-text text">
+                  1. 目視一般檢驗<br />2. 汽油車廢氣及柴油車排煙<br /><br />
+                </p>
+                <a href="#" class="btn btn-primary">瞭解更多</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-tools"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="card-title mb-3">第二站</h3>
+                <p class="card-text text">
+                  1. 軸重地磅量測<br />車輛前後軸各駛在地磅上暫停取值<br /><br />
+                </p>
+                <a href="#" class="btn btn-dark">暸解更多</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    class="bi bi-check-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                    />
+                    <path
+                      d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"
+                    />
+                  </svg>
+                </div>
+                <h3 class="card-title mb-3">第三站</h3>
+                <p class="card-text text">
+                  1. 前輪定位檢測<br />2. 煞車效能及平衡度檢測<br />3. 底盤檢驗
+                </p>
+                <a href="#" class="btn btn-primary">暸解更多</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--description Section-->
+    <section id="description" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="https://media.istockphoto.com/vectors/tire-service-concept-vector-id1211154399?k=20&m=1211154399&s=612x612&w=0&h=Bg8o3qlXYHG7FMAY43Bjb2XcSixtFHPSi9w87YcTn_I="
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+          <div class="col-md p-5">
+            <h2>我們的技術</h2>
+            <p class="lead">非常好非常好非常好非常好非常好非常好非常好非常好</p>
+            <p>全台中最好全台中最好全台中最好全台中最好</p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>認識我們
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="description" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>關於我們</h2>
+            <p class="lead">
+              JA01010 汽車修理業 JA01020 汽車拖吊業 JA01990 其他汽車服務業
+              IZ99990 其他工商服務業 F114030 汽、機車零件配備批發業 ZZ99999
+              除許可業務外，得經營法令非禁止或限制之業務
+            </p>
+            <p>核准設立日期 096年04月17日</p>
+            <a href="#" class="btn btn-light mt-3">
+              <i class="bi bi-chevron-right"></i>認識我們
+            </a>
+          </div>
+          <div class="col-md">
+            <img
+              src="https://lh3.googleusercontent.com/proxy/ZQDe3BQNVhQv5sQUD08Ctlzp1Hv-yCWF3HVFrgSOY1S1_Veg88yQwZAHsXDqktt3_FF8LihAVicR5bQai8V-xrER"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">常問的問題</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              >
+                我們在哪裡？
+              </button>
+            </h2>
+            <div
+              id="question-one"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-two"
+              >
+                要花多少錢？😢
+              </button>
+            </h2>
+            <div
+              id="question-two"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-three"
+              >
+                我需要哪些文件?
+              </button>
+            </h2>
+            <div
+              id="question-three"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道
+              </div>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-four"
+              >
+                我車子爛掉了怎麼辦？
+              </button>
+            </h2>
+            <div
+              id="question-four"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道自己看著辦
+              </div>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-five"
+              >
+                我可以在這裡工作嗎？
+              </button>
+            </h2>
+            <div
+              id="question-five"
+              class="accordion-collapse collapse"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道不知道
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--employer-->
+    <section id="employer" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">我們的員工</h2>
+        <p class="lead text-center text-white mb-5">我們的員工都是高手</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6764.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工一號</h3>
+                <p class="card-text">
+                  我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號我是員工一號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6538.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工二號</h3>
+                <p class="card-text">
+                  我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號我是員工二號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6761.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工三號</h3>
+                <p class="card-text">
+                  我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號我是員工三號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="IMG_6763.JPG"
+                  class="rounded-circle mb-3"
+                  alt=""
+                  id="picture"
+                />
+                <h3 class="card-title mb-3">員工四號</h3>
+                <p class="card-text">
+                  我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號我是員工四號
+                </p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact info-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2>連絡資訊</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">東陽地址: </span
+                >台中市后里區墩南里七星街1號
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">中庸地址: </span
+                >台中市后里區后里里三豐路206號
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">東陽電話: </span>04-25577568
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">中庸電話: </span>04-25584977
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">電子信箱: </span>samuel.yenlin@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md d-none d-sm-block">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3636.4398910074196!2d120.7210315!3d24.2962867!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691a9a76ddc99f%3A0xb2b8b1f099b5065b!2sNo.%201%2C%20Qixing%20St%2C%20Houli%20District%2C%20Taichung%20City%2C%20Taiwan%20421!5e0!3m2!1sen!2sus!4v1637623545712!5m2!1sen!2sus"
+              width="600"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relativve">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 東陽汽車修理</p>
+      </div>
+    </footer>
+    <!--model-->
+    <div
+      class="modal fade"
+      id="enroll"
+      tabindex="-1"
+      aria-labelledby="enrollLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">預約</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">請填寫以下資料(最好不要亂填喔我看得到)</p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">名子: </label>
+                <input type="text" class="form-control" id="first-name" />
+              </div>
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">貴姓:</label>
+                <input type="text" class="form-control" id="last-name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="col-form-label">電子郵箱:</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">電話號碼:</label>
+                <input type="tel" class="form-control" id="phone" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
